@@ -108,7 +108,6 @@ if ~isfield(ARG,'phase_filter_width')
     ARG.phase_filter_width=3;  %  default is [14 14 90]
 end
 
-
 if ~isfield(ARG,'NORDIC_patch_overlap')
     ARG.NORDIC_patch_overlap=2;  %  default is [14 14 90]
 end
@@ -116,7 +115,6 @@ end
 if ~isfield(ARG,'gfactor_patch_overlap')
     ARG.gfactor_patch_overlap=2;  %  default is [14 14 90]
 end
-
 
 if ~isfield(ARG,'kernel_size_gfactor')
     ARG.kernel_size_gfactor=[];  %  default is [14 14 90]
